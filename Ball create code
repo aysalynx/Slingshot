@@ -1,0 +1,4 @@
+// obj_ball Create Event
+state = "aiming";    
+speed = 0;
+dir = 90;            
