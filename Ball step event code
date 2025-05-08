@@ -1,0 +1,17 @@
+// obj_ball Step Event
+
+if (state == "aiming") {
+  
+    if (mouse_check_button(mb_left)) {
+        dir = point_direction(x, y, mouse_x, mouse_y);
+    }
+
+    if (mouse_check_button_released(mb_left)) {
+        // Запуск мяча
+        speed = 8;             
+        direction = dir;
+        state = "moving";
+    }
+} else if (state == "moving") {
+    speed = 8;
+}
