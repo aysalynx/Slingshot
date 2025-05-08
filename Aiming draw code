@@ -1,0 +1,7 @@
+// obj_ball Draw Event
+draw_self();
+
+if (state == "aiming") {
+    draw_set_color(c_red);
+    draw_line(x, y, x + lengthdir_x(60, dir), y + lengthdir_y(60, dir));
+}
