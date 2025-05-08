@@ -1,0 +1,2 @@
+// Collision Event (obj_ball → obj_obstacle)
+room_restart(); 
