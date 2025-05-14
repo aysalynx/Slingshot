@@ -7,7 +7,6 @@ if (state == "aiming") {
     }
 
     if (mouse_check_button_released(mb_left)) {
-        // Запуск мяча
         speed = 8;             
         direction = dir;
         state = "moving";
